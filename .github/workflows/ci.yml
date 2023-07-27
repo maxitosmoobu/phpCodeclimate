@@ -22,4 +22,4 @@ jobs:
       - name: Run Tests
         run: |
           php vendor/bin/phpunit --coverage-clover build/logs/clover.xml tests/
-          ./cc-test-reporter after-build -t clover --exit-code $?
+          ./cc-test-reporter after-build --debug -t clover --exit-code $?
