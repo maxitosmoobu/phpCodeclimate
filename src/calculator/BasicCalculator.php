@@ -22,8 +22,4 @@ class BasicCalculator
         return $x / $y;
     }
 
-    public function modulus(float $x, float $y)
-    {
-        return $x % $y;
-    }
 }
