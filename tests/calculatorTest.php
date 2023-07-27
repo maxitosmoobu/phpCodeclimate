@@ -60,5 +60,6 @@ class calculatorTest extends PHPUnit\Framework\TestCase
     public function testMod()
     {
         $this->assertEquals(BasicCalculator::modulus(2, 2), 0);
+        $this->assertEquals(BasicCalculator::modulus(3, 2), 1);
     }
 }
