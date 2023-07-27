@@ -22,4 +22,8 @@ class BasicCalculator
         return $x / $y;
     }
 
+    public static function modulus(float $x, float $y)
+    {
+        return $x % $y;
+    }
 }
